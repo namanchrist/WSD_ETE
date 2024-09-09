@@ -1,0 +1,56 @@
+[
+    {
+        "breedId": 1,
+        "breedName": "Golden Retriever",
+        "description": "Friendly, Intelligent, Devoted.",
+        "size": "Large",
+        "lifespan": "10-12 years",
+        "origin": "United Kingdom",
+        "image": "images/golden.jpg"
+    },
+    {
+        "breedId": 2,
+        "breedName": "Beagle",
+        "description": "Curious, Friendly, Merry.",
+        "size": "Medium",
+        "lifespan": "12-15 years",
+        "origin": "United Kingdom",
+        "image": "images/beagle.jpg"
+    },
+    {
+        "breedId": 3,
+        "breedName": "Bulldog",
+        "description": "Docile, Willful, Friendly.",
+        "size": "Medium",
+        "lifespan": "8-10 years",
+        "origin": "United Kingdom",
+        "image": "images/bulldog.jpg"
+    },
+    {
+        "breedId": 4,
+        "breedName": "Poodle",
+        "description": "Active, Proud, Very Smart.",
+        "size": "Medium",
+        "lifespan": "12-15 years",
+        "origin": "Germany/France",
+        "image": "images/poodle.jpg"
+    },
+    {
+        "breedId": 5,
+        "breedName": "German Shepherd",
+        "description": "Confident, Courageous, Smart.",
+        "size": "Large",
+        "lifespan": "9-13 years",
+        "origin": "Germany",
+        "image": "images/german.jpeg"
+    },
+    {
+        "breedId": 6,
+        "breedName": "Chihuahua",
+        "description": "Charming, Graceful, Sassy.",
+        "size": "Small",
+        "lifespan": "14-16 years",
+        "origin": "Mexico",
+        "image": "images/chihuahua.jpg"
+    }
+]

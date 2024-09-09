@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dog Lovers Signup</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index1.html">Sign Up</a></li>
+            <li><a href="index2.html">Dog Breeds</a></li>
+        </ul>
+    </nav>
+
+    <!-- Sign Up Form for Dog Lovers -->
+    <div id="main-container">
+        <div id="container"></div>
+        <div id="button-container">
+            <button class="newdog" id="dogButton">Get New Dog</button>
+        </div>
+    </div>
+
+    <div id="form-container">
+        <h2>Sign Up for Dog Lovers</h2>
+        <form id="signupForm" action="#" method="POST">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br>
+            <span class="error" id="nameError"></span><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br>
+            <span class="error" id="emailError"></span><br>
+
+            <label for="dogLover">I am a Dog Lover:</label>
+            <input type="checkbox" id="dogLover" name="dogLover" required><br>
+            <span class="error" id="dogLoverError"></span><br>
+
+            <button type="submit">Sign Up</button>
+        </form>
+    </div>
+
+    <script src="script1.js"></script>
+</body>
+
+</html>

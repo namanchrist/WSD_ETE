@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dog Breeds Information</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index1.html">Sign Up</a></li>
+            <li><a href="index2.html">Dog Breeds</a></li>
+        </ul>
+    </nav>
+
+    <!-- Dog Breeds Section -->
+    <section id="breed-section">
+        <h2>Dog Breeds</h2>
+
+        <!-- Filter Controls -->
+        <div id="filter-container">
+            <label for="breed-size">Filter by Size:</label>
+            <select id="breed-size">
+                <option value="all">All</option>
+                <option value="Small">Small</option>
+                <option value="Medium">Medium</option>
+                <option value="Large">Large</option>
+            </select>
+        </div>
+
+        <!-- Breed List -->
+        <div id="breed-list-container">
+            <div id="breed-list"></div>
+        </div>
+
+        <!-- Pagination Controls -->
+        <div id="pagination-container">
+            <button id="prev-button">Previous</button>
+            <span id="current-page">1</span>
+            <button id="next-button">Next</button>
+        </div>
+    </section>
+
+    <script src="script2.js"></script>
+</body>
+
+</html>
